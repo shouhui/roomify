@@ -69,7 +69,7 @@ export default function App() {
 
   useEffect(() => {
     refreshAuth();
-  });
+  }, []);
 
   const signIn = async () => {
     await puterSignIn();
